@@ -1,7 +1,7 @@
 const logotext = "iCodeTill.xyz";
 const meta = {
     title: "iCodeTill.xyz",
-    description: "My name is Valentine, i enjoy writing code and making stuff work on the web. i have good experiences, and building on them, i learn fast and always open to learn more from anywhere and anybody",
+    description: "My name is Valentine, a web developer and AWS Cloud engineer. I enjoy writing code and making stuff work on the web. i have good experiences, and building on them, i learn fast and always open to learn more from anywhere and anybody",
 };
 
 const introdata = {
@@ -11,9 +11,9 @@ const introdata = {
         second: "I code Backend",
         third: "Learning DevOps and Cloud",
     },
-    description: "My name is Valentine, i enjoy writing code and making stuff work on the web. i have good experiences, and building on them, i learn fast and always open to learn more from anywhere and anybody",
+    description: "My name is Valentine, i enjoy writing code and making stuff work on the web. i have good experiences, and building on them, i learn fast and always open to learn more from anywhere and anybody. I teach and currently making videos on youtube",
     
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    your_img_url: "assets/black12.png",
 };
 
 const dataabout = {
@@ -40,10 +40,40 @@ const worktimeline = [{
         link: 'https://www.hackerrank.com/certificates/4b4dc06904a5'
     },
     {
+        jobtitle: "Javascript Security for Refreshers",
+        where: "Coursera(Infosec)",
+        date: "2021",
+        link: 'https://www.coursera.org/account/accomplishments/verify/KFPYTBFQQUTW'
+    },
+     {
         jobtitle: "Javascript",
         where: "Hackerrank",
         date: "2021",
         link: 'https://www.hackerrank.com/certificates/e8e45b8c57a2'
+    },
+    {
+        jobtitle: "AWS Cloud Technical Essentials",
+        where: "Coursera(Amazon Web Services)",
+        date: "2021",
+        link: 'https://www.coursera.org/account/accomplishments/certificate/TK8A934SDHNB'
+    },
+    {
+        jobtitle: "AWS Fundamentals: Addressing Security Risk",
+        where: "Coursera(Amazon Web Services)",
+        date: "2021",
+        link: 'https://www.coursera.org/account/accomplishments/certificate/4QF2CBNH275P'
+    },
+    {
+        jobtitle: "Continous Delivery & DevOps",
+        where: "Coursera(University of Virginia Darden School of Business)",
+        date: "2021",
+        link: 'https://www.coursera.org/account/accomplishments/certificate/TK8A934SDHNB'
+    },
+    {
+        jobtitle: "AWS Cloud Technical Essentials",
+        where: "Coursera(Amazon Web Services)",
+        date: "2021",
+        link: 'https://www.coursera.org/account/accomplishments/certificate/TK8A934SDHNB'
     },
 ];
 
@@ -60,6 +90,16 @@ const worktimeline2 = [{
     {
         jobtitle: "Fullstack Developer",
         where: "Yammieshoppers",
+        date: "2020",
+    },
+    {
+        jobtitle: "Fullstack Developer/Fullstack Instructor",
+        where: "New Horizon",
+        date: "2021",
+    },
+    {
+        jobtitle: "ICT Instructor(Fullstack Instructor)",
+        where: "Bells University",
         date: "2021",
     },
 ];
@@ -95,9 +135,13 @@ const services = [{
         description: "Skilled with node frameworks of expressJs and nestJs. Performing their CRUD operation/Endpoints, integration to database, and deployment",
     },
     {
-        title: "Working on Codebase",
-        description: "At leisure time i study my code, open source codes, try fixing some legacy codes and learn DevOps",
+        title: "Cloud DevOps",
+        description: "Understands very much the fundamentals of cloud computing, Migrating to cloud, security risk, contionous integration and deployment.",
     },
+    // {
+    //     title: "Working on Codebase",
+    //     description: "At leisure time i study my code, open source codes, try fixing some legacy codes and learn DevOps",
+    // },
     {
         title: "Googling",
         description: "I would honestly accept that as a self-taught developer, it has always been google. As much as i know my syntax and algorithm well, i am good at being able to find out new things, find solutions to challenges, or just checking up random stuffs and how they work. I enjoy and know the skill well. I find everything in google ;-)",
@@ -123,7 +167,7 @@ const dataportfolio = [
     {
         img: "https://source.unsplash.com/user/linkendinsalesnavigator/1LyBcHrH4J8/400x400",
         desctiption: "Realtime video chat Application, built on Node using web3tc for peer to peer video chat",
-        link: "https://cocky-hypatia-0ee9d8.netlify.app",
+        link: "https://vicall-app.netlify.app",
     },
     {
         img: "https://source.unsplash.com/user/markusspiske/wL7pwimB78Q/400x400",

@@ -7,6 +7,11 @@ section {
     transition: all .5s ease-in;
 }
 
+.h_bg-image {
+    max-height: 200px;
+    margin-top: 3rem;
+}
+
 .who_am_I {
     font-family: Cinzel;
 }
@@ -46,13 +51,15 @@ section {
 
 .intro_sec .text,
 .intro_sec .h_bg-image {
-    width: 50%;
+    width: 100%;
+    
 }
 
 @media (max-width:991.98px) {
     .intro_sec .text,
     .intro_sec .h_bg-image {
         width: 100%;
+        max-height: 300px;
     }
 }
 
