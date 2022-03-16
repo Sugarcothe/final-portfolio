@@ -7,9 +7,21 @@ section {
     transition: all .5s ease-in;
 }
 
+
 .h_bg-image {
-    max-height: 200px;
-    margin-top: 3rem;
+    max-width: 700px;
+    margin-top: 0rem;
+    border-radius: 50%;
+    background-color: rgb(97, 67, 2);
+}
+
+@media (max-width:800.98px) {
+    .h_bg-image {
+        max-width: 700px;
+        margin-top: 0rem;
+        border-radius: 10px;
+        background-color: rgb(97, 67, 2); 
+    }
 }
 
 .who_am_I {
@@ -51,7 +63,7 @@ section {
 
 .intro_sec .text,
 .intro_sec .h_bg-image {
-    width: 100%;
+    width: 50%;
     
 }
 
@@ -183,7 +195,7 @@ section {
 
 .intro_sec .h_bg-image .block {
     bottom: 50vh;
-    max-width: 220px;
+    max-width: 150px;
     padding: 30px;
     left: -110px;
     position: absolute;
@@ -236,6 +248,6 @@ section {
     color: var(--text-color)
 }
 
-.intro_sec .h_bg-image {
+/* .intro_sec .h_bg-image {
     filter: saturate(0.5);
-}
+} */

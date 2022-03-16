@@ -7,13 +7,13 @@ const meta = {
 const introdata = {
     title: "I’m Valentine",
     animated: {
-        first: "I write Frontend",
-        second: "I code Backend",
-        third: "Learning DevOps and Cloud",
+        first: "Frontend",
+        second: "Backend",
+        third: "Cloud",
     },
-    description: "My name is Valentine, i enjoy writing code and making stuff work on the web. i have good experiences, and building on them, i learn fast and always open to learn more from anywhere and anybody. I teach and currently making videos on youtube",
+    description: "|React |NodeJs |Python |Django |Database |Shell_Scripting |Docker |Kubernetes |Ansible |AWS |Linux |Networking",
     
-    your_img_url: "assets/black12.png",
+    your_img_url: "assets/imago.png",
 };
 
 const dataabout = {
