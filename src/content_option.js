@@ -21,7 +21,46 @@ const dataabout = {
     aboutme: "I have seen myself learning javascript and frameworks fast, this have made my programming journey fun; React, Sass, Bulma Css, Tailwind, Bootstrap, Redux, integrating Node packages and intrestingly backend of Express and NestJS. I have built awesome web applications and participated in software architecture and also databases entity relational diagram (ERD) development. Currently learning DevOps. I write clean and readable codes and while at that, I am dedicated to a life of learning new things everyday.",
 };
 
-const worktimeline = [{
+const worktimeline = [
+    
+    {
+        jobtitle: "MTA: Networking Fundamentals",
+        where: "Microsoft",
+        date: "2022",
+        link: 'https://www.credly.com/badges/7d3c16da-9a66-4a1b-9715-37dda848bf8d/public_url'
+    }, 
+    {
+        jobtitle: "MTA: Security Fundamentals",
+        where: "Microsoft",
+        date: "2022",
+        link: 'https://www.credly.com/badges/5444681c-199a-4e10-9e50-eb1e227ae2c4/public_url'
+    },
+    {
+        jobtitle: "MTA: Database Fundamentals",
+        where: "Microsoft",
+        date: "2022",
+        link: 'https://www.credly.com/badges/7135b071-1a64-4d33-b351-59cc5a5c8f89/public_url'
+    },
+    {
+        jobtitle: "MTA: Software Development Fundamentals - Certified",
+        where: "Microsoft",
+        date: "2022",
+        link: 'https://www.credly.com/badges/655d04d1-b173-407a-b346-a7560d5a767c/public_url'
+    },
+    {
+        jobtitle: "MTA: Mobility and Device Fundamentals",
+        where: "Microsoft",
+        date: "2022",
+        link: 'https://www.credly.com/badges/94ea106a-79ea-45fd-936e-9d37c6db9324/public_url'
+    },
+    {
+        jobtitle: "Introduction to Cloud Computing",
+        where: "Microsoft",
+        date: "2022",
+        link: 'https://www.credly.com/badges/f1930626-1257-4eb7-ad7f-9d8c6641fa47/public_url'
+    },
+    
+    {
         jobtitle: "Responsive web design",
         where: "Freecode Camp",
         date: "2020",
@@ -105,24 +144,24 @@ const worktimeline2 = [{
 ];
 
 const skills = [{
-        name: "Javascript",
-        value: 90,
+        name: "Cloud",
+        // value: 90,
     },
     {
-        name: "NestJs",
-        value: 85,
+        name: "Javascript(React, Node, Vanilla)",
+        // value: 85,
     },
     {
-        name: "Express",
-        value: 80,
+        name: "Python(Django)",
+        // value: 80,
     },
     {
-        name: "Dependecies",
-        value: 90,
+        name: "Networking",
+        // value: 90,
     },
     {
-        name: "Styling",
-        value: 85,
+        name: "Scripting & Markup",
+        // value: 85,
     },
 ];
 
