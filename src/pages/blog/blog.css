@@ -7,14 +7,16 @@
   flex-direction: row;
   align-items: center;
   margin: 2rem;
+  justify-content: center;
 }
 
 .card {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: 400px;
-  margin-top: 1rem;
+  max-width: 300px;
+  margin-top: 3rem;
+  margin: 1rem;
   background-color: rgb(192, 192, 192);
 }
 
@@ -44,5 +46,51 @@ p {
    display: flex;
   color: var(--primary-color);
   justify-content: center;
+  justify-self: center;
+  padding: 10px;
   margin-block-end: 5px;
 }
+
+span{
+  position: relative;
+  display: inline-flex;
+  width: 180px;
+  height: 55px;
+  margin: 0 15px;
+  perspective: 1000px;
+}
+span a{
+  font-size: 19px;
+  letter-spacing: 1px;
+  transform-style: preserve-3d;
+  transform: translateZ(-25px);
+  transition: transform .25s;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+span a:before,
+span a:after{
+  position: absolute;
+  content: "Read";
+  height: 39px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid black;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+span a:before{
+  color: #fff;
+  background: #000;
+  transform: rotateY(0deg) translateZ(25px);
+}
+span a:after{
+  color: #000;
+  transform: rotateX(90deg) translateZ(25px);
+}
+span a:hover{
+  transform: translateZ(-25px) rotateX(-90deg);
+}
+

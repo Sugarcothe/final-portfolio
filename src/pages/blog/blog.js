@@ -1,5 +1,6 @@
 import React from "react";
 import "./blog.css";
+import title from "./blog-content";
 
 const blog = () => {
   return (
@@ -9,7 +10,7 @@ const blog = () => {
         <div className="row">
           <div className="card">
             <img src="assets/ai.jpg" alt="alt" />
-            <span class="tag tag-red">Artificial Intelligence</span>
+            <p class="tag tag-red">Artificial Intelligence</p>
             <h3 className="header-1">Header Title</h3>
             <p>
               It is a long established fact that a reader will be distracted by
@@ -18,6 +19,7 @@ const blog = () => {
               distribution of letters, as opposed to using 'Content here,
               content here'
             </p>
+            <span><a href="#">Read</a></span>
           </div>
         </div>
       </div>
