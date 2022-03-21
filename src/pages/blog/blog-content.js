@@ -1,10 +1,25 @@
-const title = [
-    {
+const title = 
+    [
+       {
       header: 'Header Title',
-      image: 'It is a long established fact that a reader will be distracted by the readable content ',
-      paragraph: "So many companies make casual promises about AI, it’s hard to know what’s real and what’s not. While competitors were perfecting their press releases, Juniper was first with client-to-cloud AIOps"
-   }
-  
+      tag: 'Science',
+      image: 'assets/ai.jpg',
+      paragraph: "So many companies make casual promises about AI, it’s hard to know what’s real and what’s not."
+      },
+      {
+         header: 'Header Title',
+         tag: 'Science',
+         image: 'assets/python.jpg',
+         paragraph: "So many companies make casual promises about AI, it’s hard to know what’s real and what’s not."
+      },
+      {
+         header: 'Header Title',
+         tag: 'Science',
+         image: 'assets/black.gif',
+         paragraph: "So many companies make casual promises about AI, it’s hard to know what’s real and what’s not."
+      },
 ]
+  
+
 
 export default title

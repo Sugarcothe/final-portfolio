@@ -6,7 +6,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 2rem;
+  margin-top: 2rem;
   justify-content: center;
 }
 
@@ -17,14 +17,13 @@
   max-width: 300px;
   margin-top: 3rem;
   margin: 1rem;
-  background-color: rgb(192, 192, 192);
+  background-color: rgb(139, 97, 4);
 }
 
 .card img {
   max-width: 100%;
   display: block;
   object-fit: cover;
-  border-radius: 5px;
 }
 
 .tag {
@@ -39,6 +38,12 @@
   background: #690f18;
   background: linear-gradient(to bottom, #ef473a, #cb2d3e);
   color: #fafafa;
+}
+
+img {
+  max-width: 150px;
+  height: 200px;
+  
 }
 
 .card h3,
