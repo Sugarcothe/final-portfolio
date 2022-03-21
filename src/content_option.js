@@ -189,9 +189,19 @@ const services = [{
 
 const dataportfolio = [
     {
+        img: "https://source.unsplash.com/user/amoltyagi2/UZFCQPNc4bs/400x400",
+        desctiption: "Loan calculator with intrest rate, built in html/css and ",
+        link: "https://loan-calculator123.netlify.app",
+    },
+    {
         img: "https://source.unsplash.com/user/benji3pr/icrhAD-qidc/400x400",
         desctiption: "Always current wildfire tracker. Data fetched from NASA Database for developement, map is got from google map",
         link: "https://sugarcothe.github.io/wild-fire-tracker",
+    },
+    {
+        img: "https://dazzling-brown-6267a3.netlify.app/css/img/Originals/maskurade.jpg",
+        desctiption: "A blog for African Journal written in html and css",
+        link: "https://dazzling-brown-6267a3.netlify.app",
     },
     {
         img: "https://source.unsplash.com/user/flowforfrank/1seONCyPWfQ/400x400",
