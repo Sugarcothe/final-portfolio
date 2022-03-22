@@ -12,7 +12,7 @@ const blog = () => {
         <div className="row">
           {title.map((d) => (
             <div className="card">
-            <img src={d.image} alt="alt" />
+            <img className="imago1" src={d.image} alt="alt" />
             <p className="tag tag-red">{d.tag}</p>
             <h3 className="header-1">{d.header}</h3>
             <p className="para">

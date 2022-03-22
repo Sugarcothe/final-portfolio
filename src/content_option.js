@@ -11,7 +11,7 @@ const introdata = {
         second: "Backend",
         third: "Cloud",
     },
-    description: "|React |NodeJs |Python |Django |Database |Shell_Scripting |Docker |Kubernetes |Ansible |AWS |Linux |Networking",
+    description: "|React |NodeJs |Python |Django |Database |Shell_Scripting |Docker |Kubernetes |Ansible |AWS |Azure|Linux |Networking",
     
     your_img_url: "assets/imago.png",
 };
