@@ -11,16 +11,16 @@ section {
 .h_bg-image {
     max-width: 700px;
     margin-top: 0rem;
-    border-radius: 50%;
-    background-color: rgb(97, 67, 2);
+    /* border-radius: 50%;
+    background-color: var(--secondary-color); */
 }
 
 @media (max-width:800.98px) {
     .h_bg-image {
         max-width: 700px;
         margin-top: 0rem;
-        border-radius: 10px;
-        background-color: rgb(97, 67, 2); 
+        /* border-radius: 10px; */
+        /* background-color: #474747;  */
     }
 }
 

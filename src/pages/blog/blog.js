@@ -15,7 +15,7 @@ const blog = () => {
             <img src={d.image} alt="alt" />
             <p className="tag tag-red">{d.tag}</p>
             <h3 className="header-1">{d.header}</h3>
-            <p>
+            <p className="para">
               {d.paragraph}
             </p>
             <span><a href="#">Read</a></span>

@@ -47,9 +47,9 @@ img {
 }
 
 .card h3,
-p {
+.para {
    display: flex;
-  color: var(--primary-color);
+  /* color: var(--primary-color); */
   justify-content: center;
   justify-self: center;
   padding: 10px;
