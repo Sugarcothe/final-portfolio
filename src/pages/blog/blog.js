@@ -1,5 +1,7 @@
 import React from "react";
 import "./blog.css";
+import blogDetails from './blogDetails';
+import { Link } from "react-router-dom";
 import title from "./blog-content";
 
   
@@ -18,7 +20,7 @@ const blog = () => {
             <p className="para">
               {d.paragraph}
             </p>
-            <span><a href="#">Read</a></span>
+            <span><Link to="/blogDetails">Read</Link></span>
           </div>
           ))}
         </div>

@@ -7,6 +7,7 @@ import About from "../pages/about";
 import Portfolio from "../pages/portfolio";
 import ContactUs from "../pages/contact";
 import Blog from "../pages/blog/blog";
+import blogDetails from "../pages/blog/blogDetails"
 
 function AppRoutes() {
   return (
@@ -21,6 +22,7 @@ function AppRoutes() {
       <Route path="/about" component={About} />
       <Route path="/portfolio" component={Portfolio} />
       <Route path="/contact" component={ContactUs} />
+      <Route path="/blogDetails" component={blogDetails}/>
       <Route path="/blog" component={Blog} />
       <Route path="*" component={Home} />
     </AnimatedSwitch>
