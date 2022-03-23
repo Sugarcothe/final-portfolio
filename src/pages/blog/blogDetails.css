@@ -1,0 +1,24 @@
+.header-section {
+    padding-top: 5rem;
+    padding-left: 6rem;
+}
+
+.head-1 {
+    text-decoration: underline;
+    text-decoration-color: rgb(247, 166, 46);
+    font-weight: 900;
+}
+
+.date-1 {
+    font-style: italics;
+}
+
+.details {
+    background-color: var(--primary-color);
+    margin-inline: 10rem;
+    padding: 3rem;
+}
+
+.details-1 {
+    font-size: 1.5rem;
+}
