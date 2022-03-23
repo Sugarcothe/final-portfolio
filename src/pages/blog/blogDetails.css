@@ -3,11 +3,20 @@
     padding-left: 6rem;
 }
 
+@media (max-width:991.98px) {
+    .header-section {
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+}
+
 .head-1 {
     text-decoration: underline;
     text-decoration-color: rgb(247, 166, 46);
     font-weight: 900;
 }
+
+
 
 .date-1 {
     font-style: italics;
@@ -21,4 +30,32 @@
 
 .details-1 {
     font-size: 1.5rem;
+}
+
+@media (max-width:991.98px) {
+    .head-1 {
+        text-decoration: underline;
+        text-decoration-color: rgb(247, 166, 46);
+        font-weight: 900;
+        font-size: 25px;
+    }
+
+    .head-2 {
+        font-size: 15px;
+    }
+
+    .date-1 {
+        font-style: italics;
+        font-size: 10px;
+    }
+
+    .details {
+        background-color: var(--primary-color);
+        margin-inline: 10px;
+        padding: 10px;
+    }
+
+    .details-1 {
+        font-size: 15px;
+    }
 }
